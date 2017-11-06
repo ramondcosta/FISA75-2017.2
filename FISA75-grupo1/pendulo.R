@@ -1,5 +1,5 @@
 data <- read.csv("MEDIDA 2 - Sheet1.csv")
-PendulumLengthEq <- function(t, g = 9.78033) {
+PendulumLengthEq <- function(t, g = 9.7833) {
   ((t/(2*pi))^2)*g
 }
 
