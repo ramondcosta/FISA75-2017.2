@@ -9,7 +9,6 @@
   
   time = plotableTime(t1 = data$t.s.,t0 = time0)
   
-  
   energy = cinectics(time)
   
-  plotFreefall("experimento1",energy)
+  plotFreefall("experimento1",energy,time)
